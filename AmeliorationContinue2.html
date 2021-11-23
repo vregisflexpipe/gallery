@@ -44,8 +44,21 @@ a.prev:hover,a.next:hover {
 img {
 	max-width:100%;
 	width:100%;
-
 	left:0;
+}
+
+figure { 
+  display: block; 
+  position: relative; 
+  overflow: hidden;
+  margin: 0;
+}
+
+figcaption { 
+  background: rgba(0,0,0,1); 
+  color: white; 
+  padding: 10px 20px;
+  font-family: 'Roboto';
 }
 
 body {
@@ -59,22 +72,37 @@ body {
 		<div class="slider">
   <ul>
     <li id="no-js-slider-1" class="slide">
-      <img src="https://www.flexpipeinc.com/wp-content/uploads/2021/11/Amelioration_continue_2.jpg">
+	  <figure>
+		<img src="https://www.flexpipeinc.com/wp-content/uploads/2021/11/Amelioration_continue_2.jpg">
+		<figcaption>Caption 1</figcaption>
+	  </figure>
       <a class="prev" href="#no-js-slider-4">prev</a>
       <a class="next" href="#no-js-slider-2">next</a>
     </li>
     <li id="no-js-slider-2" class="slide">
-      <img src="https://www.flexpipeinc.com/wp-content/uploads/2021/11/Amelioration_continue_v1_2.jpg">
+		<figure>
+			<img src="https://www.flexpipeinc.com/wp-content/uploads/2021/11/Amelioration_continue_v1_2.jpg">
+			<figcaption>Caption 2</figcaption>
+		  </figure>
+      
       <a class="prev" href="#no-js-slider-1">prev</a>
       <a class="next" href="#no-js-slider-3">next</a>           
     </li>
     <li id="no-js-slider-3" class="slide">
-      <img src="https://www.flexpipeinc.com/wp-content/uploads/2021/11/renforcir_rack_mixmaterial_2.jpg">
+		<figure>
+			<img src="https://www.flexpipeinc.com/wp-content/uploads/2021/11/renforcir_rack_mixmaterial_2.jpg">
+			<figcaption>Caption 3</figcaption>
+		  </figure>
+      
       <a class="prev" href="#no-js-slider-2">prev</a>
       <a class="next" href="#no-js-slider-4">next</a>           
     </li>
     <li id="no-js-slider-4" class="slide">
-      <img src="https://www.flexpipeinc.com/wp-content/uploads/2021/11/renforcir_rack_mixmaterial_v1_2.jpg">
+		<figure>
+			<img src="https://www.flexpipeinc.com/wp-content/uploads/2021/11/renforcir_rack_mixmaterial_v1_2.jpg">
+			<figcaption>Caption 4</figcaption>
+		  </figure>
+      
       <a class="prev" href="#no-js-slider-3">prev</a>
       <a class="next" href="#no-js-slider-1">next</a>          
     </li>
