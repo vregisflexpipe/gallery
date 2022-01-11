@@ -1,0 +1,290 @@
+<style>
+  
+a.prev,a.next {
+	height:91px;
+	position:absolute;
+	width:43px;
+	top:50%;
+	margin-top:-30px;
+	opacity:0.6;
+	text-indent:-99999px;
+	cursor:pointer;
+	-webkit-transition:opacity 200ms ease-out;
+}
+a.prev:hover,a.next:hover {
+	opacity:1;
+}
+.prev {
+	left:0;
+	background: #000 url('https://lh4.googleusercontent.com/-JN1IZLtuToI/UUoZnMG3C_I/AAAAAAAAAE8/SEbJ9nqXGnY/s226/sprite.png') no-repeat -200px 25px;
+}
+.next {
+	right:0;
+	background: #000 url('https://lh4.googleusercontent.com/-JN1IZLtuToI/UUoZnMG3C_I/AAAAAAAAAE8/SEbJ9nqXGnY/s226/sprite.png') no-repeat -167px 25px;
+}
+.slider {
+	height:100vh;
+	position: relative;
+}
+.slider ul{
+	margin:0;
+	padding:0;	
+}
+.slider li{
+	list-style:none;	
+}
+.slide {
+	position:absolute;
+	height:100%;
+	width:100%;
+}
+.slider .slide:target {
+	z-index: 100;
+}
+img {
+	max-width:100%;
+	width:100%;
+	left:0;
+}
+
+figure { 
+  display: block; 
+  position: relative; 
+  overflow: hidden;
+  margin: 0;
+}
+
+figcaption { 
+  background: rgba(0,0,0,1); 
+  color: white; 
+  padding: 10px 20px;
+  font-family: 'Roboto';
+  height: 70px;
+}
+
+body {
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+</style>
+		
+<div class="rt-container">
+	<div class="col-rt-12">
+		<div class="slider">
+  <ul>
+    <li id="no-js-slider-1" class="slide">
+	  <figure>
+            <img src="img/Serta_1.jpg">
+            <figcaption>Flexpipe Crib</figcaption>
+	  </figure>
+      <a class="prev" href="#no-js-slider-26">prev</a>
+      <a class="next" href="#no-js-slider-2">next</a>
+    </li>
+    <li id="no-js-slider-2" class="slide">
+		<figure>
+			<img src="img/Serta_2.jpg">
+			<figcaption>Flexpipe Crib</figcaption>
+		  </figure>
+      <a class="prev" href="#no-js-slider-1">prev</a>
+      <a class="next" href="#no-js-slider-3">next</a>           
+    </li>
+    <li id="no-js-slider-3" class="slide">
+		<figure>
+			<img src="img/Serta_3.jpg">
+			<figcaption>Flexpipe Crib</figcaption>
+		  </figure>
+      <a class="prev" href="#no-js-slider-2">prev</a>
+      <a class="next" href="#no-js-slider-4">next</a>           
+    </li>
+    <li id="no-js-slider-4" class="slide">
+		<figure>
+			<img src="img/Serta_4.jpg">
+			<figcaption></figcaption>
+		  </figure>
+      <a class="prev" href="#no-js-slider-3">prev</a>
+      <a class="next" href="#no-js-slider-5">next</a>          
+    </li>
+	<li id="no-js-slider-5" class="slide">
+		<figure>
+			<img src="img/Serta_5.jpg">
+			<figcaption></figcaption>
+		  </figure>
+      <a class="prev" href="#no-js-slider-4">prev</a>
+      <a class="next" href="#no-js-slider-6">next</a>          
+    </li>
+	<li id="no-js-slider-6" class="slide">
+		<figure>
+			<img src="img/Serta_6.jpg">
+			<figcaption></figcaption>
+		  </figure>
+      <a class="prev" href="#no-js-slider-5">prev</a>
+      <a class="next" href="#no-js-slider-7">next</a>          
+    </li>
+	<li id="no-js-slider-7" class="slide">
+		<figure>
+			<img src="img/Serta_7.jpg">
+			<figcaption></figcaption>
+		  </figure>
+      <a class="prev" href="#no-js-slider-6">prev</a>
+      <a class="next" href="#no-js-slider-8">next</a>          
+    </li>
+	<li id="no-js-slider-8" class="slide">
+		<figure>
+			<img src="img/Serta_8.jpg">
+			<figcaption></figcaption>
+		  </figure>
+      <a class="prev" href="#no-js-slider-7">prev</a>
+      <a class="next" href="#no-js-slider-9">next</a>          
+    </li>
+	<li id="no-js-slider-9" class="slide">
+		<figure>
+			<img src="img/Serta_9.jpg">
+			<figcaption></figcaption>
+		  </figure>
+      <a class="prev" href="#no-js-slider-8">prev</a>
+      <a class="next" href="#no-js-slider-10">next</a>          
+    </li>
+	<li id="no-js-slider-10" class="slide">
+		<figure>
+			<img src="img/Serta_10.jpg">
+			<figcaption></figcaption>
+		  </figure>
+      <a class="prev" href="#no-js-slider-9">prev</a>
+      <a class="next" href="#no-js-slider-11">next</a>          
+    </li>
+	<li id="no-js-slider-11" class="slide">
+		<figure>
+			<img src="img/Serta_11.jpg">
+			<figcaption></figcaption>
+		  </figure>
+      <a class="prev" href="#no-js-slider-10">prev</a>
+      <a class="next" href="#no-js-slider-12">next</a>          
+    </li>
+	<li id="no-js-slider-12" class="slide">
+		<figure>
+			<img src="img/Serta_12.jpg">
+			<figcaption></figcaption>
+		  </figure>
+      <a class="prev" href="#no-js-slider-11">prev</a>
+      <a class="next" href="#no-js-slider-13">next</a>  
+    </li>
+	<li id="no-js-slider-13" class="slide">
+		<figure>
+			<img src="img/Serta_13.jpg">
+			<figcaption></figcaption>
+		  </figure>
+      <a class="prev" href="#no-js-slider-12">prev</a>
+      <a class="next" href="#no-js-slider-14">next</a> 
+<li id="no-js-slider-14" class="slide">
+		<figure>
+			<img src="img/Serta_14.jpg">
+			<figcaption></figcaption>
+		  </figure>
+      <a class="prev" href="#no-js-slider-13">prev</a>
+      <a class="next" href="#no-js-slider-15">next</a>          
+    </li>
+<li id="no-js-slider-15" class="slide">
+		<figure>
+			<img src="img/Serta_15.jpg">
+			<figcaption></figcaption>
+		  </figure>
+      <a class="prev" href="#no-js-slider-14">prev</a>
+      <a class="next" href="#no-js-slider-16">next</a>          
+    </li>
+<li id="no-js-slider-16" class="slide">
+		<figure>
+			<img src="img/Serta_16.jpg">
+			<figcaption></figcaption>
+		  </figure>
+      
+      <a class="prev" href="#no-js-slider-15">prev</a>
+      <a class="next" href="#no-js-slider-17">next</a>          
+    </li>
+<li id="no-js-slider-17" class="slide">
+		<figure>
+			<img src="img/Serta_17.jpg">
+			<figcaption></figcaption>
+		  </figure>
+      <a class="prev" href="#no-js-slider-16">prev</a>
+      <a class="next" href="#no-js-slider-18">next</a>          
+    </li>
+<li id="no-js-slider-13" class="slide">
+		<figure>
+			<img src="img/Serta_18.jpg">
+			<figcaption></figcaption>
+		  </figure>
+      <a class="prev" href="#no-js-slider-17">prev</a>
+      <a class="next" href="#no-js-slider-19">next</a>          
+    </li>
+<li id="no-js-slider-19" class="slide">
+		<figure>
+			<img src="img/Serta_19.jpg">
+			<figcaption></figcaption>
+		  </figure>
+      <a class="prev" href="#no-js-slider-18">prev</a>
+      <a class="next" href="#no-js-slider-20">next</a>          
+    </li>
+<li id="no-js-slider-20" class="slide">
+		<figure>
+			<img src="img/Serta_20.jpg">
+			<figcaption></figcaption>
+		  </figure>
+      <a class="prev" href="#no-js-slider-19">prev</a>
+      <a class="next" href="#no-js-slider-21">next</a>          
+    </li>
+<li id="no-js-slider-21" class="slide">
+		<figure>
+			<img src="img/Serta_21.jpg">
+			<figcaption></figcaption>
+		  </figure>
+      <a class="prev" href="#no-js-slider-20">prev</a>
+      <a class="next" href="#no-js-slider-22">next</a>          
+    </li>
+<li id="no-js-slider-22" class="slide">
+		<figure>
+			<img src="img/Serta_22.jpg">
+			<figcaption></figcaption>
+		  </figure>
+      <a class="prev" href="#no-js-slider-12">prev</a>
+      <a class="next" href="#no-js-slider-14">next</a>          
+    </li>
+<li id="no-js-slider-23" class="slide">
+		<figure>
+			<img src="img/Serta_23.jpg">
+			<figcaption></figcaption>
+		  </figure>
+      <a class="prev" href="#no-js-slider-22">prev</a>
+      <a class="next" href="#no-js-slider-24">next</a>          
+    </li>    
+<li id="no-js-slider-24" class="slide">
+		<figure>
+			<img src="img/Serta_24.jpg">
+			<figcaption></figcaption>
+		  </figure>
+      <a class="prev" href="#no-js-slider-23">prev</a>
+      <a class="next" href="#no-js-slider-25">next</a>          
+    </li>
+<li id="no-js-slider-25" class="slide">
+		<figure>
+			<img src="img/Serta_25.jpg">
+			<figcaption></figcaption>
+		  </figure>
+      <a class="prev" href="#no-js-slider-24">prev</a>
+      <a class="next" href="#no-js-slider-26">next</a>          
+    </li>
+<li id="no-js-slider-26" class="slide">
+		<figure>
+			<img src="img/Serta_26.jpg">
+			<figcaption></figcaption>
+		  </figure>
+      <a class="prev" href="#no-js-slider-25">prev</a>
+      <a class="next" href="#no-js-slider-1">next</a>          
+    </li> 
+    </li>
+  </ul>
+</div>
+	</div>
+</div>
+	</body>
+</html>
+
